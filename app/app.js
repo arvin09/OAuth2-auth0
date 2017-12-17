@@ -40,12 +40,12 @@
             });
 
             angularAuth0Provider.init({
-                clientID: 'pTZjNWrOqnYOUoN3sa08nn7yDMEMuxQz',
-                domain:'orion9486.auth0.com',
+                clientID: 'CLIENTID',
+                domain:'DOMAIN',
                 responseType: 'token id_token',
                 redirectUril: 'http://localhost:3000/callback',
                 scope: 'openid profile',
-                audience: 'https://orion9486.com/api'
+                audience: 'AUDIENCE'
             });
 
             jwtOptionsProvider.config({

@@ -40,12 +40,12 @@
             });
 
             angularAuth0Provider.init({
-                clientID: 'CLIENTID',
-                domain:'DOMAIN',
-                responseType: 'token id_token',
-                redirectUril: 'http://localhost:3000/callback',
-                scope: 'openid profile',
-                audience: 'AUDIENCE'
+              clientID: AUTH0_CLIENT_ID,
+              domain: AUTH0_DOMAIN,
+              responseType: 'token id_token',
+              redirectUri: AUTH0_CALLBACK_URL,
+              scope: 'openid profile',
+              audience: AUTH0_API_AUDIENCE
             });
 
             jwtOptionsProvider.config({

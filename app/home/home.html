@@ -1,0 +1,7 @@
+<h4>Hello Home</h4>
+
+<button ng-if="vm.auth.isAuthenticated()" ng-click="vm.getMessage()" class="btn btn-primary">
+    Get a message
+</button>
+
+<p ng-if="vm.message">{{vm.message}}</p>
